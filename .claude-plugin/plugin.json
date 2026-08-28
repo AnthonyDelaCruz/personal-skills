@@ -1,0 +1,10 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "personal",
+  "version": "0.1.0",
+  "description": "Personal AI skills I use for my own workflow",
+  "author": {
+    "name": "Tony Dela Cruz"
+  },
+  "skills": ["./skills/"]
+}
