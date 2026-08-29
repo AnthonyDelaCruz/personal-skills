@@ -5,7 +5,7 @@ description: Use when the user mentions Obsidian, "the vault", a note or a daily
 
 # Obsidian Vault
 
-Vault `my-remote-vault` at `/Users/tony.delacruz/Documents/my-remote-vault`. Drive it with the `obsidian` CLI — it keeps the live app's index, link graph, and frontmatter correct. Don't read or write the files directly.
+Vault `my-remote-vault` at `~/Documents/my-remote-vault`. Drive it with the `obsidian` CLI — it keeps the live app's index, link graph, and frontmatter correct. Don't read or write the files directly.
 
 **Run every `obsidian` command with `dangerouslyDisableSandbox: true`.** The CLI talks to the running app over localhost; sandboxed, even `obsidian help` fails with a flat `Vault not found.` That's the network sandbox — not a cwd, vault-flag, or config problem. Don't chase it.
 
