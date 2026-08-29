@@ -1,6 +1,6 @@
 # Backlog
 
-Skill candidates considered and parked, with the evidence that raised them. Reviewed alongside the active set — see **Review** below.
+The rules behind what gets built here. Individual candidates are tracked as [issues](https://github.com/AnthonyDelaCruz/personal-skills/issues) — this file holds only what isn't per-item work.
 
 ## Placement rule
 
@@ -20,22 +20,22 @@ Corollary: skills here are written arena-agnostic and parameterised. They read t
 
 Communication preferences live in the global `~/.claude/CLAUDE.md`, not in a skill — it always loads, needs no trigger, and cannot collide with an installed plugin.
 
-## Parked
+## Candidates
 
-**Pedagogy — explaining unfamiliar code at beginner level.** The largest arena-agnostic pattern found: 123 "explain / walk me through" prompts across 14 projects, plus 17 separate requests to explain at beginner level. Dropped only because it arrived bundled with the learning arena. The strongest candidate for the next batch.
+Tracked as issues labelled [`candidate`](https://github.com/AnthonyDelaCruz/personal-skills/issues?q=is%3Aissue+label%3Acandidate), each carrying the evidence that raised it.
 
-**Local dev stack — run and tear down.** A repeatable multi-service startup dance re-explained four times. Names work repos, so under the placement rule it belongs in the private team plugin, not here. Separate errand.
+## Out of scope for this repo
 
-**Vault hygiene.** Three separate requests amounting to "total re-vamp, it got unwieldy real quick". Recurring, but the shape of the fix isn't settled — unclear whether it is a skill or a one-off reorganisation.
-
-**Screenshot-driven prompts.** 85 occurrences across 10 projects where a pasted image is the entire prompt. Real pattern; no clear skill shape yet.
+**Local dev stack — run and tear down.** A repeatable multi-service startup dance, re-explained four times. Under the placement rule it names work repos, so it belongs in the private team plugin. Recorded here so it isn't re-proposed, not tracked here because the work can't be done here.
 
 ## Rejected — collides with an installed plugin
 
-Planning, systematic debugging, and skill authoring all duplicate `superpowers`. Code-behaviour rules — don't assume, don't overengineer, stay in scope — are already covered by `karpathy-guidelines`. Collision avoidance is deliberate: plugins get installed and then narrowed to the few skills actually wanted, so a new skill that overlaps an existing one is a defect, not redundancy.
+Planning, systematic debugging, and skill authoring all duplicate `superpowers`. Code-behaviour rules — don't assume, don't overengineer, stay in scope — are already covered by `karpathy-guidelines`.
+
+Collision avoidance is deliberate: plugins get installed and then narrowed to the few skills actually wanted, so a new skill that overlaps an existing one is a defect, not redundancy. Check what is already installed before opening a candidate issue.
 
 ## Review
 
-**2026-09-12**, after two weeks of real use.
+Scheduled reviews are tracked as issues labelled [`review`](https://github.com/AnthonyDelaCruz/personal-skills/issues?q=is%3Aissue+label%3Areview). The next is [#4](https://github.com/AnthonyDelaCruz/personal-skills/issues/4), due 2026-09-12.
 
-Prune criterion: anything in the active set not reached for unprompted gets deleted. An unused skill is context cost on every session and a collision risk on the next install.
+Standing prune criterion: anything in the active set not reached for unprompted gets deleted. An unused skill is context cost on every session and a collision risk on the next install.
