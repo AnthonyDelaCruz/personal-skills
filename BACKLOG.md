@@ -29,12 +29,12 @@ Tracked as issues labelled [`candidate`](https://github.com/AnthonyDelaCruz/pers
 
 ## Rejected — collides with an installed plugin
 
-Planning, systematic debugging, and skill authoring all duplicate `superpowers`. Code-behaviour rules — don't assume, don't overengineer, stay in scope — are already covered by `karpathy-guidelines`.
+Planning, systematic debugging, and skill authoring all duplicate `superpowers`. Code-behaviour rules — don't assume, don't overengineer, stay in scope — are already covered by the global `~/.claude/CLAUDE.md`.
 
 Collision avoidance is deliberate: plugins get installed and then narrowed to the few skills actually wanted, so a new skill that overlaps an existing one is a defect, not redundancy. Check what is already installed before opening a candidate issue.
 
 ## Review
 
-Scheduled reviews are tracked as issues labelled [`review`](https://github.com/AnthonyDelaCruz/personal-skills/issues?q=is%3Aissue+label%3Areview). The next is [#4](https://github.com/AnthonyDelaCruz/personal-skills/issues/4), due 2026-09-12.
+Scheduled reviews are tracked as issues labelled [`review`](https://github.com/AnthonyDelaCruz/personal-skills/issues?q=is%3Aissue+label%3Areview). None is scheduled; the last was [#4](https://github.com/AnthonyDelaCruz/personal-skills/issues/4), closed 2026-11-19.
 
 Standing prune criterion: anything in the active set not reached for unprompted gets deleted. An unused skill is context cost on every session and a collision risk on the next install.
