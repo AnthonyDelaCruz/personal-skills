@@ -15,9 +15,7 @@ Corollary: skills here are written arena-agnostic and parameterised. They read t
 
 | Skill | Species | Invocation |
 |---|---|---|
-| `context-handoff` | process | explicit only |
-| `debrief` | process | explicit only |
-| `readme-standardise` | procedure | auto |
+| `obsidian-vault` | context | auto |
 
 Communication preferences live in the global `~/.claude/CLAUDE.md`, not in a skill — it always loads, needs no trigger, and cannot collide with an installed plugin.
 
